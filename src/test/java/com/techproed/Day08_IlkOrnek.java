@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class Day08_IlkOrnek {
     static WebDriver driver;
     // neden burda tanimladik?
-    // cunku diger methodlardan da (tum methodlar) bu nedneye ulasabilmek icin
+    // cunku diger methodlardan da (tum methodlar) bu nesneye ulasabilmek icin
     // cunku fineElement gibi methodlari ister istemez testlerin icersinde kulanacagiz
 
     @BeforeClass
@@ -38,7 +38,6 @@ public class Day08_IlkOrnek {
     @AfterClass
     public static void tearDown(){
         driver.quit();
-        driver.getTitle();
 
     }
 

@@ -29,6 +29,7 @@ public class Day08_IkinciOrnek {
 
     @Before//her test methodundan onde calisacak
     public void beforeTest(){
+
         driver.get("http://google.com");
     }
 

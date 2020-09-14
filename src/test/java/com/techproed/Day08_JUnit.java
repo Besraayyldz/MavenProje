@@ -26,7 +26,7 @@ public class Day08_JUnit {
     }
 
     @Test
-    @Ignore//Ignore anotation'una sahip methodu gormezden gelinir
+    // @Ignore//Ignore anotation'una sahip methodu gormezden gelinir
     public void test2(){
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
